@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+django-rest-auth = "*"
+djangorestframework = "*"
+gunicorn = "*"
+pylint-django = "*"
+django-environ = "*"
+django-oauth-toolkit = "*"
+drf-yasg = "*"
+
+[requires]
+python_version = "3.7"
