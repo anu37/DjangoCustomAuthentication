@@ -1,0 +1,9 @@
+version: "3"
+services:
+  django:
+    image: sample_rest_api:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./sample_rest_api/db:/usr/src/app/sample_rest_api/db
+      - ./sample_rest_api/static:/usr/src/app/sample_rest_api/static
