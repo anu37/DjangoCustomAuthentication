@@ -76,14 +76,20 @@ To access the admin panel and the swagger UI you can create a super user using t
 
 *  **Swagger UI** - http://localhost:8000/swagger/
 
-***There is one manual step to complete the set up***
+
+*******There is a manual step to complete the set up*******
 
 
-- *After creating the super user, login to the admin panel and create a record in the Appication model. Note down the **`client id`** and **`client secret.`***
+
+> After creating the super user, login to the admin panel and create a
+> record in the Appication model. Note down the client id and client
+> secret.
+
+`
 
   
 
-### There are 3 APIs exposed in this project
+## There are 3 APIs exposed in this project
 
   
 
@@ -218,6 +224,12 @@ The app `customauth` defines the whole flow of the custom authentication.
 
 7. We finaly define the authentication class in the `DEFAULT_AUTHENTICATION_CLASSES` in the `REST_FRAMEWORK` dictionary in settings file.
 
+  
+
+
+
+
+  
 
 ## Things to do
 
